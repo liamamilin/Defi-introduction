@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>深入浅出Defi</title>
+  <meta name="description" content="深入浅出介绍Defi" />
+  <meta name="generator" content="bookdown 0.38 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="深入浅出Defi" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="深入浅出介绍Defi" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="深入浅出Defi" />
+  
+  <meta name="twitter:description" content="深入浅出介绍Defi" />
+  
+
+<meta name="author" content="Liam" />
+
+
+<meta name="date" content="2024-11-01" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="进入defi世界.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">深入浅出Defi</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> 中心化&amp; 去中心化金融</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#传统金融机构"><i class="fa fa-check"></i><b>1.1</b> 传统金融机构</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="index.html"><a href="index.html#银行"><i class="fa fa-check"></i><b>1.1.1</b> 银行</a></li>
+<li class="chapter" data-level="1.1.2" data-path="index.html"><a href="index.html#去中心化金融-vs-传统金融"><i class="fa fa-check"></i><b>1.1.2</b> 去中心化金融 VS 传统金融</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#什么是去中心化金融defi"><i class="fa fa-check"></i><b>1.2</b> 什么是去中心化金融（DeFi）？</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#defi生态系统"><i class="fa fa-check"></i><b>1.2.1</b> DeFi生态系统</a></li>
+<li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#defi的去中心化程度如何"><i class="fa fa-check"></i><b>1.2.2</b> DeFi的去中心化程度如何？</a></li>
+<li class="chapter" data-level="1.2.3" data-path="index.html"><a href="index.html#defi的主要分类"><i class="fa fa-check"></i><b>1.2.3</b> DeFi的主要分类</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="进入defi世界.html"><a href="进入defi世界.html"><i class="fa fa-check"></i><b>2</b> 进入DeFi世界</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="进入defi世界.html"><a href="进入defi世界.html#去中心化层以太坊"><i class="fa fa-check"></i><b>2.1</b> 去中心化层：以太坊</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="进入defi世界.html"><a href="进入defi世界.html#什么是以太坊"><i class="fa fa-check"></i><b>2.1.1</b> 什么是以太坊？</a></li>
+<li class="chapter" data-level="2.1.2" data-path="进入defi世界.html"><a href="进入defi世界.html#什么是智能合约"><i class="fa fa-check"></i><b>2.1.2</b> 什么是智能合约？</a></li>
+<li class="chapter" data-level="2.1.3" data-path="进入defi世界.html"><a href="进入defi世界.html#什么是以太币eth"><i class="fa fa-check"></i><b>2.1.3</b> 什么是以太币（ETH）？</a></li>
+<li class="chapter" data-level="2.1.4" data-path="进入defi世界.html"><a href="进入defi世界.html#什么是gas"><i class="fa fa-check"></i><b>2.1.4</b> 什么是Gas？</a></li>
+<li class="chapter" data-level="2.1.5" data-path="进入defi世界.html"><a href="进入defi世界.html#什么是去中心化应用dapps"><i class="fa fa-check"></i><b>2.1.5</b> 什么是去中心化应用（Dapps）？</a></li>
+<li class="chapter" data-level="2.1.6" data-path="进入defi世界.html"><a href="进入defi世界.html#去中心化应用dapps的优势有哪些"><i class="fa fa-check"></i><b>2.1.6</b> 去中心化应用（Dapps）的优势有哪些？</a></li>
+<li class="chapter" data-level="2.1.7" data-path="进入defi世界.html"><a href="进入defi世界.html#去中心化应用dapps的缺点是什么"><i class="fa fa-check"></i><b>2.1.7</b> 去中心化应用（Dapps）的缺点是什么？</a></li>
+<li class="chapter" data-level="2.1.8" data-path="进入defi世界.html"><a href="进入defi世界.html#以太坊还可以用于什么"><i class="fa fa-check"></i><b>2.1.8</b> 以太坊还可以用于什么？</a></li>
+<li class="chapter" data-level="2.1.9" data-path="进入defi世界.html"><a href="进入defi世界.html#以太坊的未来"><i class="fa fa-check"></i><b>2.1.9</b> 以太坊的未来</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="进入defi世界.html"><a href="进入defi世界.html#以太坊钱包"><i class="fa fa-check"></i><b>2.2</b> 以太坊钱包</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="进入defi世界.html"><a href="进入defi世界.html#托管钱包-vs-非托管钱包"><i class="fa fa-check"></i><b>2.2.1</b> 托管钱包 vs 非托管钱包</a></li>
+<li class="chapter" data-level="2.2.2" data-path="进入defi世界.html"><a href="进入defi世界.html#argent"><i class="fa fa-check"></i><b>2.2.2</b> Argent</a></li>
+<li class="chapter" data-level="2.2.3" data-path="进入defi世界.html"><a href="进入defi世界.html#metamask"><i class="fa fa-check"></i><b>2.2.3</b> MetaMask</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html"><i class="fa fa-check"></i><b>3</b> 深入探索去中心化金融（DeFi）</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html#去中心化稳定币"><i class="fa fa-check"></i><b>3.1</b> 去中心化稳定币</a></li>
+<li class="chapter" data-level="3.2" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html#maker平台"><i class="fa fa-check"></i><b>3.2</b> Maker平台</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html#什么是maker"><i class="fa fa-check"></i><b>3.2.1</b> 什么是Maker?</a></li>
+<li class="chapter" data-level="3.2.2" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html#sai与dai的区别是什么"><i class="fa fa-check"></i><b>3.2.2</b> SAI与DAI的区别是什么？</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html#去中心化借贷"><i class="fa fa-check"></i><b>3.3</b> 去中心化借贷</a></li>
+<li class="chapter" data-level="3.4" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html#去中心化交易所dex"><i class="fa fa-check"></i><b>3.4</b> 去中心化交易所（DEX）</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html#去中心化交易所类型"><i class="fa fa-check"></i><b>3.4.1</b> 去中心化交易所类型</a></li>
+<li class="chapter" data-level="3.4.2" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html#dex的限制"><i class="fa fa-check"></i><b>3.4.2</b> DEX的限制</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html#去中心化衍生品"><i class="fa fa-check"></i><b>3.5</b> 去中心化衍生品</a>
+<ul>
+<li class="chapter" data-level="3.5.1" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html#synthetix"><i class="fa fa-check"></i><b>3.5.1</b> Synthetix</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html#去中心化基金管理"><i class="fa fa-check"></i><b>3.6</b> 去中心化基金管理</a></li>
+<li class="chapter" data-level="3.7" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html#中心化彩票"><i class="fa fa-check"></i><b>3.7</b> 中心化彩票</a></li>
+<li class="chapter" data-level="3.8" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html#去中心化支付"><i class="fa fa-check"></i><b>3.8</b> 去中心化支付</a></li>
+<li class="chapter" data-level="3.9" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html#去中心化保险"><i class="fa fa-check"></i><b>3.9</b> 去中心化保险</a></li>
+<li class="chapter" data-level="3.10" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html#治理"><i class="fa fa-check"></i><b>3.10</b> 治理</a></li>
+<li class="chapter" data-level="3.11" data-path="深入探索去中心化金融defi.html"><a href="深入探索去中心化金融defi.html#去中心化金融dashboard"><i class="fa fa-check"></i><b>3.11</b> 去中心化金融Dashboard</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="defi即未来未来已至.html"><a href="defi即未来未来已至.html"><i class="fa fa-check"></i><b>4</b> DeFi即未来，未来已至</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="defi即未来未来已至.html"><a href="defi即未来未来已至.html#那么defi的用户体验如何呢"><i class="fa fa-check"></i><b>4.1</b> 那么，DeFi的用户体验如何呢？</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/liamamilinn" target="blank">My Github</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">深入浅出Defi</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">深入浅出Defi</h1>
+<p class="author"><em>Liam</em></p>
+<p class="date"><em>2024-11-01</em></p>
+</div>
+<div id="中心化-去中心化金融" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Chapter 1</span> 中心化&amp; 去中心化金融<a href="index.html#中心化-去中心化金融" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="传统金融机构" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> 传统金融机构<a href="index.html#传统金融机构" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>为了向新接触去中心化金融（DeFi）的人们提供信息，我们将首先介绍传统金融机构的基础知识。为了简便起见，我们将专注于传统金融系统中杠杆率最高的机构——银行，并讨论其关键领域，以了解潜在的风险。</p>
+<div id="银行" class="section level3 hasAnchor" number="1.1.1">
+<h3><span class="header-section-number">1.1.1</span> 银行<a href="index.html#银行" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>银行是金融行业的巨头，它们促进支付、接受存款，并向个人、企业、其他金融机构甚至政府提供信贷。它们规模如此之大,在2021年4月，整个加密货币市场的总市值超过了2万亿美元。</p>
+<p>银行是金融行业这个运转机器中的重要部分——它们通过提供价值转移服务（存款、取款、转账）、扩大信贷额度（贷款）等，使资金得以在全球范围内流动。然而，银行由人类管理，并受政策的约束，这些政策容易受到与人类相关的风险，如管理不善和腐败。
+2008年的全球金融危机展示了银行过度冒险的行为，政府被迫对银行进行大规模的救助。这场危机暴露了传统金融系统的不足，并强调了需要对其进行改进的必要性。
+去中心化金融（DeFi）旨在利用互联网和区块链技术的出现，构建一个更好的金融环境，特别是在银行系统的三个关键部分：</p>
+<ol style="list-style-type: decimal">
+<li>支付和清算系统（汇款）</li>
+<li>可访问性</li>
+<li>中心化与透明度</li>
+</ol>
+<div id="支付和清算系统" class="section level4 hasAnchor" number="1.1.1.1">
+<h4><span class="header-section-number">1.1.1.1</span> 支付和清算系统<a href="index.html#支付和清算系统" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>如果你曾经尝试过向另一个国家的人或企业汇款，你就会非常清楚这种痛苦——涉及全球范围银行的汇款通常需要几个工作日才能完成，并且涉及各种费用。更糟糕的是，还可能存在文件问题、遵守反洗钱法律的问题、隐私问题等等。
+例如，假设你住在美国，你想从你在美国的银行账户向澳大利亚朋友的银行账户汇款1000美元。通常涉及三种费用：你银行的汇率、国际电汇出境费和国际电汇入境费。此外，根据收款银行的位置，收款人收到款项还需要几个工作日。
+推动去中心化金融（DeFi）运动的加密货币允许你绕过那些拿走这些转账大部分利润的中介。这可能也会更快——你的转账将被无条件处理，且费用相对银行更低。例如，将加密货币转账到世界上任何账户的时间可能在15秒到5分钟之间，这取决于几个因素，同时伴随着一小笔费用。</p>
+</div>
+<div id="可访问性" class="section level4 hasAnchor" number="1.1.1.2">
+<h4><span class="header-section-number">1.1.1.2</span> 可访问性<a href="index.html#可访问性" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>如果你正在阅读这本书，很可能你已经拥有银行账户，并且能够接触到银行提供的金融服务——开设储蓄账户、贷款、投资等等。然而，许多人则没有那么幸运，他们甚至无法接触到最基本的储蓄账户。
+世界银行估计，截至2017年，有17亿人没有在金融机构开设账户，其中超过一半的人来自发展中国家。他们主要来自贫困家庭，没有银行账户的主要原因包括贫困、地理位置和信任问题。
+然而，世界银行也估计，17亿没有银行账户的人口中有三分之二可以使用手机。因此，有了互联网连接，去中心化金融（DeFi）的去中心化应用程序（Dapps）可以成为数百万未银行化人口接触金融产品和进行金融交易的门户，而无需经历传统银行所要求的漫长验证过程。
+去中心化金融（DeFi）代表了一场运动，旨在推动无国界、不受审查、且对所有人开放的金融产品。DeFi协议不进行歧视，为每个人提供平等的竞争环境。</p>
+</div>
+<div id="中心化和透明度" class="section level4 hasAnchor" number="1.1.1.3">
+<h4><span class="header-section-number">1.1.1.3</span> 中心化和透明度<a href="index.html#中心化和透明度" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>不可否认，遵守政府法律和法规的传统、受监管的金融机构是存放资金最安全的地方之一。但它们并非没有缺陷——即使是大型银行也可能倒闭。华盛顿互助银行（Washington Mutual），拥有超过1880亿美元的存款，以及雷曼兄弟（Lehman Brothers），拥有6390亿美元的资产，都在2008年倒闭了。仅在美国，就有超过500家银行倒闭的记录。银行是金融系统中的集中故障点之一。雷曼兄弟的倒闭触发了2008年金融危机的开始。银行手中权力和资金的集中是危险的，考虑到过去的事件，这是有道理的。
+透明度也与此相关——普通投资者无法知道金融机构究竟在做什么。导致2008年金融危机的一些事件包括信用评级机构将高风险的抵押贷款支持证券评为AAA级（即最佳和最安全的投资）。
+去中心化金融（DeFi）的情况将有所不同。DeFi协议是建立在公共区块链如以太坊之上的，大多数是开源的，以便于审计和提高透明度。它们通常有去中心化的管理组织，以确保每个人都知道发生了什么，并且没有不良行为者能够单独做出糟糕的决策。
+DeFi协议是以代码行的形式编写的——你不能欺骗代码，因为它无歧视地平等对待每个参与者。代码按照编程的方式运行，任何缺陷很快就会变得明显，因为它是公开接受公众审查的。
+然而，这意味着只有能够理解代码的人才能够确定最终产品的实际功能。在实践中，大多数用户无法阅读代码，而是依赖于其他因素，如开发者的声誉、口碑、其他开发者的评论和社区的认可。换句话说，DeFi协议依赖于去中心化的点对点审查。因此，DeFi的最大优势在于其能够在零审查的情况下去除中介。</p>
+</div>
+</div>
+<div id="去中心化金融-vs-传统金融" class="section level3 hasAnchor" number="1.1.2">
+<h3><span class="header-section-number">1.1.2</span> 去中心化金融 VS 传统金融<a href="index.html#去中心化金融-vs-传统金融" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>摩擦、不便获取性和监管不确定性是当前银行系统面临的一些主要问题。不幸的是，并非每个人都有幸在当前金融系统中拥有银行账户，也无法在公平的竞争环境中进行财务竞争。
+人们只需要看看GameStop（GME）交易背后的困境，一群小投资者决定购买GME股票，因为大型对冲基金大量做空它。像Robinhood这样的金融应用程序不得不介入并限制GME交易，因为所谓的“异常波动”。有些人可能会接受这种表面现象，认为Robinhood限制GameStop（GME）股票交易是因为“异常波动”。而其他人会注意到Robinhood的最大客户之一是Citadel LLC。Citadel是一家投资了Melvin Capital的公司，后者因做空GME而损失了数十亿美元。
+去中心化金融运动旨在解决这些问题，使金融对所有人开放，不受任何形式的审查。简而言之，DeFi打开了巨大的机会窗口，允许用户在没有任何种族、宗教、年龄、国籍或地理限制的情况下访问各种金融工具。
+在比较传统金融产品和去中心化金融产品时，每一方都会有优点和缺点。在这本书中，我们将引导您了解去中心化金融的概念和可能性，以便您知道如何使用其最佳特性来解决现实世界的问题。
+在第2章中，我们将提供DeFi及其一些去中心化应用程序的概述，以帮助捕捉DeFi运作方式的基本概念。</p>
+</div>
+</div>
+<div id="什么是去中心化金融defi" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> 什么是去中心化金融（DeFi）？<a href="index.html#什么是去中心化金融defi" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>去中心化金融（DeFi）是一场运动，它允许用户利用金融服务，如借贷、放贷和交易，而无需依赖中心化实体。这些金融服务是通过去中心化应用程序（Dapps）提供的，其中大部分部署在以太坊平台上。
+虽然了解以太坊的工作原理有助于更好地形象化DeFi生态系统，但您不需要成为以太坊专家就能使用DeFi提供的工具。我们将在下一章更多地讨论以太坊。
+DeFi不是一个单一的产品或公司，而是一系列模仿传统金融行业的金融服务，包括银行、保险、债券、货币市场等。DeFi Dapps使用户能够结合这些服务来实现预期的财务目标。由于其可组合性，它通常被称为金钱乐高。
+为了让DeFi Dapps工作，通常需要将抵押品锁定在智能合约中。在DeFi Dapps中锁定的累积抵押品通常被称为总锁定价值（Total Value Locked），它是DeFi生态系统增长的指标。在我们之前的版本中，我们强调了2019年初的总锁定价值约为2.75亿美元，并在2020年2月达到了12亿美元的高点。
+截至2021年4月，仅以太坊的总锁定价值就高达670亿美元，这表明我们已经走了多远。这还不包括其他区块链网络，如Binance、Solana等。所有链的总锁定价值合计为860亿美元。</p>
+<div id="defi生态系统" class="section level3 hasAnchor" number="1.2.1">
+<h3><span class="header-section-number">1.2.1</span> DeFi生态系统<a href="index.html#defi生态系统" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>由于去中心化金融（DeFi）领域的快速增长，我们不可能在这本书中涵盖DeFi提供的所有内容。因此，我们选择了一些我们认为对于初学者在进入DeFi生态系统之前需要理解的重要且关键的类别和DeFi去中心化应用（Dapps）。
+这些DeFi Dapps有望通过移除对任何中间人的需要来彻底改变传统金融服务。然而，您应该注意到，DeFi目前的状态仍然非常初级和实验性，许多项目每天都在迅速改进。随着时间的推移，DeFi可能会进一步发展，看起来与今天完全不同。
+尽管如此，了解DeFi的早期起源是有帮助的。只要你具备正确的知识和技能，你今天仍然可以利用DeFi去中心化应用程序（Dapps）所提供的功能。</p>
+</div>
+<div id="defi的去中心化程度如何" class="section level3 hasAnchor" number="1.2.2">
+<h3><span class="header-section-number">1.2.2</span> DeFi的去中心化程度如何？<a href="index.html#defi的去中心化程度如何" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>回答DeFi的去中心化程度并非易事。为简便起见，我们将去中心化的程度分为三类：中心化、半去中心化和完全去中心化。</p>
+<ol style="list-style-type: decimal">
+<li>中心化</li>
+</ol>
+<ul>
+<li>特点：托管型，使用中心化价格信息，中心化决定的利率，中心化提供的保证金流动性。</li>
+<li>例子：Salt, BlockFi, Nexo 和 Celsius。</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>半去中心化（具有以下一个或多个特点，但并非全部）</li>
+</ol>
+<ul>
+<li>特点：非托管型，去中心化价格信息，无需许可即可启动保证金，无需许可的保证金流动性，去中心化利率决定，去中心化平台开发/更新。</li>
+<li>例子：Compound, MakerDAO, dYdX, 和 bZx。</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>完全去中心化</li>
+</ol>
+<ul>
+<li>特点：每个组成部分都是去中心化的。</li>
+<li>例子：目前还没有完全去中心化的DeFi协议。大多数DeFi应用目前处于半去中心化类别。</li>
+</ul>
+</div>
+<div id="defi的主要分类" class="section level3 hasAnchor" number="1.2.3">
+<h3><span class="header-section-number">1.2.3</span> DeFi的主要分类<a href="index.html#defi的主要分类" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>在本书中，我们将涵盖DeFi的九个主要类别。尽管治理（Governance）并不严格属于DeFi类别，我们认为讨论协议如何自我治理也很重要，因此它值得拥有独立的一章。
+1稳定币
+众所周知，加密货币的价格极为波动，一天之内波动超过10%是常有的事。为了减轻这种波动性，人们创造了与美元等其他稳定资产挂钩的稳定币。
+泰达币（USDT）是最早引入的中心化稳定币之一。每个USDT据说都有发行者银行账户中的1美元作为支撑。然而，USDT的一个主要缺点是，用户需要信任美元储备是完全抵押，并且确实存在的。
+去中心化稳定币旨在解决这种信任问题。它们通过过度抵押的方法创建，在完全去中心化的账本上运作，并由去中心化自治组织管理。任何人都可以公开审计它们的储备。
+虽然稳定币本身并非金融应用，但它们对于DeFi应用的普及至关重要，因为它们提供了一种稳定的价值储存方式，让每个人都能更容易地使用这些应用。
+2借贷
+传统金融系统要求用户拥有银行账户才能使用其服务，而目前有17亿人没有这种“奢侈品”。从银行借款还有其他限制，比如需要有良好的信用评分和足够的抵押品来说服银行，自己是有信用的，并且有能力偿还贷款。
+去中心化借贷消除了这一障碍，允许任何人抵押他们的数字资产，并用此来获得贷款。人们还可以通过向借贷池贡献资产并从这些资产上赚取利息，从而在资产上获得收益并参与借贷市场。有了去中心化借贷，就不需要银行账户，也不需要检查信用价值。
+3交易所
+要将一种加密货币换成另一种，可以使用Coinbase或Binance这样的交易所。这些交易所是中心化交易所，意味着它们既是交易资产的中介，也是托管人。这些交易所的用户并不完全控制他们的资产，如果交易所遭到黑客攻击并且无法偿还债务，他们的资产就会面临风险。
+去中心化交易所旨在通过允许用户在不放弃对其币的保管权的情况下交换加密货币来解决这个问题。通过不在中心化交易所上存储任何资金，用户无需信任交易所的偿付能力。
+4衍生品
+衍生品是一种其价值来自另一种基础资产（如股票、商品、货币、指数、债券或利率）的合约。
+交易者可以使用衍生品来对冲他们的头寸，减少任何特定交易的风险。例如，假设你是一位手套制造商，想要对冲橡胶价格意外上涨的风险。你可以从你的供应商那里购买一份期货合约，以今天约定的价格，在特定的未来交货日期交付特定数量的橡胶。
+衍生品合约主要在中心化平台交易。去中心化金融（DeFi）平台正在开始构建去中心化的衍生品市场。在本书的第8章中，我们将对这个话题进行更详细的讨论。
+5资金管理
+资金管理是监督你的资产并管理其现金流以产生投资回报的过程。有两种主要的资金管理类型——主动和被动资金管理。主动资金管理有一个管理团队做出投资决策，以超越某个特定的基准，如标准普尔500指数。被动资金管理没有管理团队，但设计得尽可能接近模仿特定基准的表现。 在DeFi中，一些项目已经开始允许以去中心化的方式进行被动资金管理。DeFi的透明度使用户容易跟踪他们的资金如何被管理，以及理解他们将支付的费用。
+6彩票
+随着DeFi的不断发展，将会出现更多创新和颠覆性的金融应用，使可访问性民主化并消除中介。在彩票中加入去中心化金融（DeFi）的元素，可以实现将集中管理的资金池转移到以太坊区块链上的智能合约中。这样，就不需要一个中心化的托管机构来管理这些资金，而是通过智能合约自动执行，增加了透明度和安全性。有了DeFi的模块化，可以将一个简单的彩票Dapp链接到另一个DeFi Dapp，并创造更多的价值。本书将探讨的一个DeFi Dapp允许参与者将他们的资本汇集在一起。汇集的资金然后投资到一个DeFi借贷Dapp中，赚取的利息在设定的时间间隔内给一个随机赢家。一旦选定了赢家，彩票购买者就会得到他们的彩票退款，确保所有参与者都没有损失。
+7支付
+加密货币的一个关键作用是允许双方之间去中心化和无需信任的价值转移。随着DeFi的发展，行业正在创新和尝试更多的创造性支付方式。
+本书探索的一个DeFi项目旨在通过将支付重新配置为流式而不是我们熟悉的交易来改变我们处理支付的方式。提供流式支付的可能性为资金的多种潜在应用打开了大门。想象一下“随用随付”，但规模更小，精度更高。
+DeFi的初步发展阶段及其创新速度无疑会引入新的支付理念，从而解决当前金融系统的诸多缺陷。
+8保险
+保险是一种风险管理策略，个人在不幸事件发生时，可以从保险公司获得财务保护或赔偿以弥补损失。人们通常购买汽车、房屋、健康和人寿保险。但有没有针对DeFi的去中心化保险呢？
+锁定在智能合约中的所有代币都可能因智能合约漏洞而面临风险，因为攻击者的潜在收益可能非常巨大。虽然大多数项目都对他们的代码库进行了审计，但我们永远不知道智能合约是否真的安全，总是有可能发生黑客攻击导致损失。这些风险强调了购买保险的必要性，特别是如果一个人在DeFi上处理大量资金。
+我们将在本书中探索几种去中心化保险选项。
+9治理
+治理本质上是加密货币的商业管理理念。为了管理一个项目，DeFi协议通常会引入治理代币，给予用户投票权并对协议的发展路线图有发言权。自然地，也开发了多个工具包和Dapp来促进有效的治理并补充现有系统。</p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="进入defi世界.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/index.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
